@@ -6,7 +6,7 @@ The Rhino Motion System utilizes tools mounted to a motion carriage.  Tools curr
 
 Tools may be powered by either 12v or 24v pwm signal.
 
-We strongly encourage others to develop tools for the Rhino Motion System.
+Development of tools is an ongoing process and we strongly encourage others to share their designs for the benefit of all.
 
 Development underway for a mini-spindle and needle cutter tool heads!
 
