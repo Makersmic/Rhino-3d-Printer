@@ -11,7 +11,7 @@ First conceived as a 3d printer, Rhino has evolved into a multi-tool motion syst
 
 ## More to come...
 While the main platform is complete on the Rhino Motion System there are still components that need to be completed.  These components are:
--Project 'Cheeky Monkey'-the filament box.  Total redesign to include the ability to have interchangeable modules.  These modules would include:
+- Project 'Cheeky Monkey'-the filament box.  Total redesign to include the ability to have interchangeable modules.  These modules would include:
 - Filament Monitoring
 - Air Handling System
 - Chip Exhaust
