@@ -1,4 +1,5 @@
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Welcome%20Graphic.jpg)
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf
 # Rhino-3d-Printer
 First conceived as a 3d printer, Rhino has evolved into a multi-tool motion system platform.  With a focus on 2d and 3d manufacturing Rhino gives you the headroom to create some truely amazing projects.  
 
