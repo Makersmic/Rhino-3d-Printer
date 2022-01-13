@@ -5,3 +5,4 @@ Moving forward i'd like to seperate out the pin configurations into a seperate f
 
 Currently using Fluidd web interface v0.9.1-609-gf2b4d353 so it's a little dated.  Need to try and migrate over to mainsail since it is supported right now.
 
+Would be nice if someone developed a printer.cfg swapper program.
