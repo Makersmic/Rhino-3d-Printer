@@ -19,5 +19,5 @@ While the main platform is complete on the Rhino Motion System there are still c
 - Small Build Farm Management.
 
 - Project 'Fresh Air'-an onboard air system for part cooling and air filtration.  Finalize design, find suitable filter material.
-- Mini Spindle-Firmware, wiring, workflows.
+- ~~Mini Spindle-Firmware, wiring~~, workflows.
 
