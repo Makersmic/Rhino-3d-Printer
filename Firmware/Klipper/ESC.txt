@@ -1,0 +1,48 @@
+To begin, ensure you have a working Klipper printer.cfg file configured for your printer as this process will rely upon Klippers ability to us macros.  For this tutorial we will be utilizing the following parts:
+-HobbyWing 80a esc
+-12v 30a Mechanical Relay
+-2 pwm fan port from your control board
+
+Providing Power to the ESC
+When using the spindle attachment or any other Rhino attachment that requires the use of an esc it is best thought to only power the esc when said attachments are in use.  We will be providing power through the use of a mechanical relay and connections to the existing power supply that is dedicated for expansion tools.  See wiring diagram below for connecting the power supply, relay, and esc.
+
+ESC Power Cycle Configuration
+The Rhino borrows technology from many different communities, if you haven’t figured it out yet the esc we will be using is commonly used in radio control hobbiest community.  There are a couple of sequences that we need to mimic using our 3d printer hardware in order for all the goodies to communicate with each other, but first we need power!  Also note, I did not want to utilize physical hardware buttons but rather have everything controllable through a web interface like Fluidd or Mainsail so macros are a must here.
+
+Macros: ESC_Activate & ESC_Deactivate
+The ESC_Activate and ESC_Deactivate macros do not control the pwm speed signal for the esc but rather provide a means of controlling power provided to the esc.  We need a means of turning on and off the power to the esc attachment and these macros can be thought of as the on/off switch for this portion of the Rhino.  
+
+First let’s tell Klipper which pin to use as our on/off switch.  In your printer.cfg file add the following line.
+
+[output_pin ESC_Power]
+Pin: aux:PE5
+ESC_Activate
+Place macro here
+
+ESC_Deactivate
+Place macro here
+
+*Note: These macros have been tailored to be compatible with an MKS Rumba+ control board.  Be sure to tailor the pin assignments to suit your needs.
+
+ESC PWM Frequency
+To start let’s create a section in printer.cfg file for the esc and choose a set of free pwm pins on the controller board.  Begin by adding the following text:
+[output_pin Spindle_pin]
+Normally when a 3d printer control board sends a pwm signal it is sent through the positive terminal or lead to the device, we see this all the time with fans that have variable on our printers.  In this case though the esc is looking for a signal coming off of the negative pin from the controller.  To achieve this we have to change the pin state in Klipper, this is achieved through adding an exclamation point at the start of the statement.  Let’s add the following text to our newly created esc section in the printer.cfg file.
+[output_pin Spindle_pin]
+pin: !rollstand:PE4
+
+As mentioned before we are using a piece of tech from another community and as a result things are not matching, mainly the pwm frequency.  The pwm frequency used on our 3d printer control board is 500Hz while the pwm frequency of the esc is 50Hz.  With these being different we need to tell Klipper to send a pwm signal to the esc using 50Hz.  In this section the frequency is referred to as cycle_time, and we need to tell Klipper the appropriate cycle time for the esc.  I could not get an accurate figure to place in here when I tried using various formulas so I ended up doing what a lot us do and just play.  I played with the sliders in the web interface, I altered the figure used for cycle time and what I landed on was 0.0025.  Adding this will look like
+[output_pin Spindle_pin]
+pin: !rollstand:PE4
+cycle_time: 0.0025
+
+With the cycle time at 0.0025 my minimum throttle position value is 0.3 and the maximum throttle position is 0.99.  Playing with the cycle time value will move the throttle range between 0-1.
+
+Other behaviors we need to mimic for the esc is a pwm signal letting the esc know there is a transmitter/receiver connected when power is provided to the esc.  We do this by providing a pwm signal to the signal pin of the esc when the esc is powered up.  This is achieved through setting the pin value of the pwm pin to the lowest throttle position, in our case it is set to 0.30.  
+[output_pin Spindle_pin]
+pin: !rollstand:PE4
+cycle_time: 0.0025
+value: 0.3
+
+Another behavior we need to mimic is training the esc to highest and lowest positions of throttle stick that is normally found on the rc handheld transmitter, this is called calibrating the esc.
+---need to add how to calibrate the esc---
