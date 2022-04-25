@@ -1,12 +1,13 @@
-The Rhino utilizes multiple heated silicon mats on a single aluminum heat spreader to ensure that heat is evenly distributed during the build process.  Unlike systems
-from other manufacturers the multiple heate mats are meant to work in unison but still retain the ability to be heated separately.  This is due to the range of build 
-plate materials available and those materials having a tendancy to warp due to heat fluctuations.  Because of this we developed a simple macro to control the heaing 
-sequence of all the beds.  In a nutshell what happens is the primary heated mat(center mat) is told to heat to a specfic temperature, as soon as these instructions are 
-sent anothe set of instructions is sent to the outer beds to mimic the target temperature of the primary bed.  We have appropriatelt named this macro BedMimc.
+The Rhino utilizes multiple heated silicon mats on a single aluminum heat spreader to ensure that heat is evenly distributed during the build process.  Unlike systems from other manufacturers the multiple heate mats are meant to work in unison but still retain the ability to be heated separately.  This is due to the range of build plate materials available and those materials having a tendancy to warp due to heat fluctuations.  Because of this we developed a simple macro to control the heaing sequence of all the beds. 
 
 Note these variables will change for setup when altering this macro for your setup.
 Heater_Bed0........Left Heater Mat
 Heater_Bed2........Right Heater Mat
 Heater_Bed.........Default Heater Bed Parameter
 
-Insert Macro here:
+Place in start gcode after heated temp has been set!
+
+[gcode_macro BEDMIMIC]
+gcode:
+  SET_HEATER_TEMPERATURE HEATER=Heater_Bed2 TARGET={printer.heater_bed.target}
+  SET_HEATER_TEMPERATURE HEATER=Heater_Bed0 TARGET={printer.heater_bed.target}
