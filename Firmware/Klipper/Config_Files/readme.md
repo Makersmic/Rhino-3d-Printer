@@ -1,5 +1,5 @@
 
-Configuration files are organized by tool.  In addition to pin assignments, macros are also located inside the config file as well.  Note, pin assignments may different depending on the hardware you are using, pay special note to pin assignment polarities disscussed within tutorials composed.
+Configuration files are organized by tool.  In addition to pin assignments, macros are also located inside the config file as well.  Note, pin assignments may be different depending on the hardware you are using, pay special note to pin assignment polarities discussed within tutorials composed.
 
 Current Tool:
 3d Print Heads
