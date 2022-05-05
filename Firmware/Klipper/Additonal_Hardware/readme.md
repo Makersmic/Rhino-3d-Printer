@@ -1,4 +1,4 @@
-***Rhino-additional hardware***
+***Rhino-Additional Hardware***
 In this section you will find guides to the hardware used in the Rhino.  Take note of pin assignments and control board usage as this is a Klipper driven motion system
 and your hardware choice may be different.  Used in the current configuration always this allows for zero conflicts when using a 21w4 coonector. 
 
