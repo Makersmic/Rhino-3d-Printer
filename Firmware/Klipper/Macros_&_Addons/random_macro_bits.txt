@@ -1,0 +1,37 @@
+Proviided by Ornery_Watercress_43 from Klipper/Reddit
+
+[gcode_macro home]
+description: checks if x, y, & z axis have been homed.  If not, then homes all axis.
+gcode:  
+    {% set ns = namespace(MUSTHOME= false) %}
+    {% for AXIS in ["x", "y", "z"] %}
+        {% if AXIS in printer.toolhead.homed_axes %}
+            RESPOND MSG="{AXIS} is already homed"
+        {% else %}
+            RESPOND MSG="{AXIS} not homed"
+            {% set ns.MUSTHOME = true %}
+        {% endif %}
+    {% endfor %}   
+    {% if ns.MUSTHOME == true %}
+        G28
+        RESPOND MSG="homing"
+    {% endif %}
+    
+    
+Provided by code_poet82 from Klipper/Reddit
+[idle_timeout]
+description: timeout the extruder and leave the bed and chamber temps alone if the printer was in a "paused" state when the timeout occurred.
+gcode:
+  {% if printer.pause_resume.is_paused %}
+  M117 Idle, hotend cooldown
+  SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0
+  {% else %}
+  TURN_OFF_HEATERS
+  M84
+  {% endif %}
+timeout: 3600
+
+#need a TURN_OFF_HEATERS MACRO
+[gcode macro HOTEND_COOLDOWN]
+  NEOPIXEL BLUE
+  M104 S0
