@@ -35,3 +35,21 @@ timeout: 3600
 [gcode macro HOTEND_COOLDOWN]
   NEOPIXEL BLUE
   M104 S0
+
+
+perform z tilt adjust every 5 prints
+{% set svv = printer.save_variables.variables %}
+M117 Print job {svv.print_count}
+# home all
+HOME
+SAVE_VARIABLE VARIABLE=print_count VALUE={svv.print_count + 1}
+{% if svv.print_count % 5 == 0 %}
+M117 Rebuilding mesh
+Z-TILT_ADJUST
+{% endif %}
+
+make sure you have this section also in your config, change filename to whatever you want.
+
+[save_variables]
+filename: ~/config/variables.cfg
+
