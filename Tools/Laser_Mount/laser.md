@@ -1,6 +1,6 @@
 # The Laser:
-Current primary functions of the laser attachment are cutting of vector based shapes out of flat sheet material.  Rhino 
-firmware has not been optimised for engraving of raster images.
+insert image
+Current primary functions of the laser attachment are cutting of vector based shapes out of flat sheet material.
 
 Laser attachment functions through the available 12v supply.
 
