@@ -2,7 +2,7 @@
 
 ![Rhino](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/4A271D9A-36F3-4DF0-B862-CE5E58B66D81.jpeg)
 
-## Tools:
+# Tools:
 The Rhino Motion System utilizes replaceable tools mounted to the x axis motion carriage.  Tools 'slot' into place and auto-align from the v-groove style slot found on the front of the carriage.  The tool is further held in place by an m3x50mm bolt and knurled nut(or wingnut) combination.
 
 Tools currently available are:
@@ -17,7 +17,7 @@ Tools currently available are:
 
 Implementation of all of the tools is conducted through what is affectionately called the Umbilical and the Hub.  
 
-# The Umbilical
+## The Umbilical
 Through the use of a male/female 21w4 dsub connector is able to effectively provide connection points for all of the tools listed above.  Mating point is at the top rear frame with the Hub directly below.  With the mating point located in the rear it allows the tool to only carry wiring specific to that tool.  Constant hardware connections such as endstops are not part of Umbilical. 
 
 Constant connections include:
@@ -37,7 +37,7 @@ Constant connections include:
 
 insert image here
 
-# The Hub
+## The Hub
 Effectively a series of wago style terminal blocks providing quick and easy connections points to the Umbilical, control boards, and other related hardware inside of the control panel area.
 
 insert image here
