@@ -1,8 +1,10 @@
 
 # Rhino-Tools
 The Rhino Motion System utilizes tools mounted to a motion carriage.  Tools currently available are:
-*the Jack Rabbit 3d printing tool head 
-*Laser Engraving/Cutting tool head
+
+The Jack Rabbit 3d printing tool head 
+
+Laser Engraving/Cutting tool head
 
 *Tools may be powered by either 12v or 24v pwm signal.
 
