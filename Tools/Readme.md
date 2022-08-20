@@ -16,7 +16,22 @@ Development underway for a needle cutter tool head and Roland Drag Knife toolset
 
 Implementation of all of the tools is conducted through what is affectionately called the Umbilical and the Hub.  
 
-The Umbilical, through the use of a male/female 21w4 dsub connector is able to effectively provide connection points for all of the tools listed above.  Mating point is at the top rear frame with the Hub directly below.  With the mating point located in the rear it allows the tool to only carry wiring specific to that tool.  Constant hardware connections such as endstops are not part of Umbilical.
+The Umbilical, through the use of a male/female 21w4 dsub connector is able to effectively provide connection points for all of the tools listed above.  Mating point is at the top rear frame with the Hub directly below.  With the mating point located in the rear it allows the tool to only carry wiring specific to that tool.  Constant hardware connections such as endstops are not part of Umbilical. 
+
+Constant connections include:
+
+-3 wires for endstop
+
+-2 20mm soft tube aire connections
+
+-2 wire chamber thermistor
+
+-2 wire led strip.
+
+
+
+*Note-the Backbone of the Umbilical provides for multiple configurations if a user desires to use hardware not covered within thin documentation.
+
 
 insert image here
 
