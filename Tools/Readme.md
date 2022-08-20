@@ -1,5 +1,6 @@
 
 # Rhino-Tools
+![Rhino](Rhino-3d-Printer/Tools/13B1CBD9-4845-4C6B-A269-3DE548539205.jpeg)
 The Rhino Motion System utilizes replaceable tools mounted to the x axis motion carriage.  Tools 'slot' into place and auto-align from the v-groove style slot found on the front of the carriage.  The tool is further held in place by an m3x50mm bolt and knurled nut(or wingnut) combination.  Tools currently available are:
 
 The Jack Rabbit 24v 3d printing tool head 
