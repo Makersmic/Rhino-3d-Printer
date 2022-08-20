@@ -42,6 +42,8 @@ Effectively a series of wago style terminal blocks providing quick and easy conn
 
 insert image here
 
+## Tool Swap
+
 To change the Rhino from 3d printer mode to laser/spindle/drag knife mode a user simply needs to mountbthe appropriate tool ensuring the Umbilical is fully seated at the mounting point and then use appropriate programs for gcode generation.
 
 *Note: When using the Rhino for functions outside of 3d printing and while navigating the online interface of Fluidd or Mainsail, 3d printer nozzle temp is general temperature of the tool.
