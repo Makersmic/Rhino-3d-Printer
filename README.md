@@ -1,6 +1,6 @@
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Welcome%20Graphic.jpg)
 
-At long last the 15mm belt components are in the process of being uploaded along other updates to the Rhuno Motion System.
+At long last the 15mm belt components are in the process of being uploaded along other updates to the Rhino Motion System.
 
 Thanks for visiting this project of mine.  Please keep in mind this is a personal project, if you see something that needs fixed or could help in development please let me know!
 
