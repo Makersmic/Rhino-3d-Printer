@@ -1,0 +1,1 @@
+Components that make up the belt tensioners for each belt.  Two Assemblies will need to be constructed to complete the motion system.  Optimized for 15mm 2gt belts, and pulleys with a total height of 19mm.  Refer to included drawing for assembly and parts list.
