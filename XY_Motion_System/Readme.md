@@ -1,5 +1,5 @@
 ## XY Motion System
-Optimized for 15mm belts, the files found within this section will enable you to construct the xy motion system.  
+Optimized for 15mm belts, the files found within this section will enable you to construct the xy motion system.  As a bonus I've uploaded step files to make editing for modifications easier for the community.
 
 ### Why 15mm belts?
 Because the tools that can be used with the Rhino motion system we felt it best to go with some hefty belts.  Benefits of these larger belts would include better or less resonance 
