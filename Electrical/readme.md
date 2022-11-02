@@ -31,7 +31,7 @@ JQX-13FL 10A relay
 JQX-38F 40A relay
 
 ![JQX-38F](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Electrical/Images/JQX-38F.jpg) width="200" height="200">
-<img src="[https://your-image-url.type](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Electrical/Images/JQX-38F.jpg)" width="100" height="100">
+<img src="https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Electrical/Images/JQX-38F.jpg" width="400" height="400">
 ### Distribution Blocks
 I chose two different styles depending on the application.  
 
