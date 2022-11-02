@@ -29,7 +29,7 @@ JQX-13FL 10A relay
 
 #### 24v high high amperage circuits: *spindle module*
 JQX-38F 40A relay
-![JQX-38F](https://github.com/Makersmic/Rhino-3d-Printer/tree/main/Electrical/Images)
+![JQX-38F]!(https://github.com/Makersmic/Rhino-3d-Printer/tree/main/Electrical/Images)
 
 ### Distribution Blocks
 I chose two different styles depending on the application.  
