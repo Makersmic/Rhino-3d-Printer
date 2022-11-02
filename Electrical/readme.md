@@ -27,6 +27,8 @@ With the exception of the ssr's used for the heated bed mats i chose to use mech
 #### 12v high amperage circuits: *laser module, vacuum pump*
 JQX-13FL 10A relay
 
+<img src="https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Electrical/Images/JQX-13FL.jpg" width="250" height="200">
+
 #### 24v high high amperage circuits: *spindle module*
 JQX-38F 40A relay
 
