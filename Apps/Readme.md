@@ -13,3 +13,9 @@ https://github.com/LaserWeb/LaserWeb4-Binaries/releases
 
 ### CNC Spindle Cutting
 This work flow I'm still working on.  
+
+### Other Useful Software or Websites
+www.zamzar.com
+https://inkscape.org/
+https://www.tinkercad.com/things/02BPiKjln3N-windows-10
+
