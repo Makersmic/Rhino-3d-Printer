@@ -1,4 +1,15 @@
 ## Apps:
-I've been a long time user of Cura for 3d printing and thus far it has done the fine.  For laser cutting or rather gcode generation for laser cutting I use Laserweb,while at the same time using suite of other program to pull images/toolpathes from like autocad, illustrator, or adobe acrobat.  For the spindle I've only just dabbled a bit with usage, and that was with Fusion360.
-For the longest time klipper did not support raster engraving, not sure if it does noe but if so, wiring for the laser will need tobe redo e to account for this, i think.
-For a while i thought an all in one program would be best but most programs out there are too locked down for their own equipment not allowing a user to input custom machines.  Sucks, i would have really liked to find one.
+I try to use free applications whenever possible.  Applications that have licensing fees in my opinion can limit the development and hurt possible community growth.
+
+### 3d Printing
+I've been a long time user of Cura for 3d printing and so far it has done a good job.  For the time being I've tried to keep things simple with the ability to expand on features which is one of the reasons I chose Klipper firmware.  
+
+https://ultimaker.com/software/ultimaker-cura
+
+### Laser Cutting/Engraving & Drag Knife
+For laser cutting gcode generation I use Laserweb.  Image prep can be done with a wide variety of other applications.
+
+https://github.com/LaserWeb/LaserWeb4-Binaries/releases
+
+### CNC Spindle Cutting
+This work flow I'm still working on.  
