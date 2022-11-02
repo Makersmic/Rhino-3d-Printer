@@ -6,10 +6,10 @@ Step 1. Loosen the belt clamps located on the x-carriage.
 
 Step 2. Adjust both belt tensioners to their lowest setting.
 
-Step 3. Adjust both belts on the x-carriage as to where they are snug ensuring the gantry is laying at the same measurement on each y axis linear rail.  Use the through-holes of the linear rail for quick reference.  Do not worry about getting the belts super tight, just snug with zero slack.
+Step 3. Adjust both belts through the x-carriage belt clamps as to where they are snug, while ensuring the gantry equally perpendicular on each y axis linear rail.  Use the through-holes of the linear rail for quick reference.  Do not worry about getting the belts super tight, just snug with zero slack.
 
 Step 4. Tighten the belt clamps on the x-carriage.
 
-Step 5. Using the tension knob of the belt tensioner, adjust each tensioner to equal tension.  There are 5 possible settings for belt tension.
+Step 5. Using the tension knob of the belt tensioner to index into one of 5 tension setttings, adjust each tensioner to equal tension.  There are 5 possible settings for belt tension.
 
 Done!
