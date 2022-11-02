@@ -7,6 +7,8 @@ Rpi 3+
 ### Mainboard
 SKR GTR with the accompanying M5 board
 
+https://github.com/bigtreetech/BIGTREETECH-GTR-V1.0
+
 In no particular order the reasons for choosing this board were that while the GTR can be supplied 24v, the M5 can be supplied 12v.  This especially handy when having to control devices that are 24v and 12v.  A quick shoutout would be having 24v 3d printing hardware but then also having a 12v laser module in the arsenal.  Another reason I chose this combination is that the M5 connects directly to the GTR board so in essence I'm saving a usb port on the Rpi.  Lastly, the GTR has a good amount of inputs and output but with the addition of the M5 it gives the Rhino an over-abundance of possiblities for future tool modules.
 
 ### Power
