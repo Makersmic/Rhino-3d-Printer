@@ -46,7 +46,8 @@ insert image here
 
 To change the Rhino from 3d printer mode to laser/spindle/drag knife mode a user simply needs to mount the appropriate tool ensuring the Umbilical is fully seated at the mounting point and then use appropriate programs for gcode generation.  Currently there is not a self-check in place for gcode to match the appropriate tool.
 
-*Note: When using the Rhino for functions outside of 3d printing and while navigating the online interface of Fluidd or Mainsail, 3d printer nozzle temp is general temperature of the tool.
+## How does this all work together?
+All of the tool modules utilize a 21w4 male connector whilst connecting to a 21w4 female connector located at the rear of the Rhino.  A couple things to keep to get this all to work.  Klipper needs various inputs due to their specification in the firmware, mainly thermistor sensors providing input if specified.  Some have pondered as well as myself for quite some time how do get around this when switching tools that don't require those inputs and through time the answer became clear.  While some of the tools themselves may not require a temp reading, that doesn't mean we can't provide one.  An example of this would be the 3d printing module vs the laser module, when 3d printing Klipper requires a temp reading from the hotend, but if we switch that tool over to the laser module we still need to provide that temp reading that Klipper is looking for.  Simple, just add a thermistor to the laser tool.  What i chose to do is mount a thermistor to the heatsink portion of the laser module keeping in mind that i needed to use the same type of thermistor that was used on 3d printing tool.  Because I've chosen this method i no longer need to go my printer.cfg file and uncomment/comment out things for the laser module to work.
 
 
 
