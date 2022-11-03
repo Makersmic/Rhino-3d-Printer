@@ -35,7 +35,7 @@ Constant connections include:
 *Note-the Backbone of the Umbilical provides for multiple configurations if a user desires to use hardware not covered within this documentation.
 
 
-insert image here
+<img src="https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Electrical/Images/JQX-13FL.jpg" width="250" height="200">
 
 ## The Hub
 Effectively a series of wago style terminal blocks providing quick and easy connections points to the Umbilical, control boards, and other related hardware inside of the control panel area.
