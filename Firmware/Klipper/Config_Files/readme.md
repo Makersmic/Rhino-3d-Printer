@@ -4,7 +4,6 @@ Configuration files are organized by tool.  In addition to pin assignments, macr
 Current Tool:
 3d Print Heads
 -Jack Rabbit
--Super Thumper
 
 Laser Tool:
 -Light Saber
@@ -13,4 +12,4 @@ CNC Spindle
 -Hot Joe ER8
 
 Drag Knife
--Name not chosen
+-Ostrich
