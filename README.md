@@ -1,18 +1,15 @@
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Welcome%20Graphic.jpg)
+*Updated 11-06-2022
 
-At long last the 15mm belt components are in the process of being uploaded along other updates to the Rhino Motion System.
-
-Thanks for visiting this project of mine.  Please keep in mind this is a personal project, if you see something that needs fixed or could help in development please let me know!
-
-First conceived as a 3d printer, Rhino has evolved into a multi-tool motion system platform.  With a focus on 2d and 3d manufacturing Rhino gives you the headroom to create some truely amazing projects.  
+The Rhino is a multi-tool motion system platform using a corexy belt path for the xy motion motion components.  With a focus on 2d and 3d manufacturing Rhino gives you the headroom to create some truely amazing projects.  
 
 ## Key features include:
 - Swappable Toolhead
+- 15mm belts on X & Y
 - Jack Rabbit, direct drive extruder
 - Hot Joe, Mini Spindle
 - Light Saber, Laser Module
 - Ostrich, Drag Knife Module
-- All-Purpose Vacuum Bed
 - 3-Point Z-Axis Leveling
 - Enclosed Build Chamber
 - Fresh Air, utilized for 3d print part cooling, blow-air for laser cutting/engraving, and chip evacuation for the spindle module
@@ -27,4 +24,4 @@ While the main platform is complete on the Rhino Motion System there are still c
 - Liquid Cooling
 - Small Build Farm Management.
 
-
+This is an ever evolving project that is highly expenadable.  Expect to see updates from time to time on items that I felt needed improvement or corrected.
