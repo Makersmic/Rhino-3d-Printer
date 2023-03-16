@@ -1,4 +1,4 @@
-### Tool Identification
+# Tool Identification
 The idea of identifying tools on a multi-tool machine is not a new idea.  It is beneficial to be able to id a tool prior to the machine proceeding with the manufacturing for multitude of reasons.
 Crashing tools into the build plate or into another spot on the printer can be detremental and potentially damage your machine.  
 
