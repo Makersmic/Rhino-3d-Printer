@@ -1,19 +1,18 @@
 # Tool Identification
-The idea of identifying tools on a multi-tool machine is not a new idea.  It is beneficial to be able to id a tool prior to the machine proceeding with the manufacturing for multitude of reasons.
+The idea of identifying tools on a multi-tool machine is not a new idea.  It is beneficial to be able to id a tool prior to the machine proceeding with manufacturing for multitude of reasons.
 Crashing tools into the build plate or into another spot on the printer can be detremental and potentially damage your machine.  
 
 ## Goals
 With tool identification i wanted to the following to be accomplished:
-Identify the tool that is currently installed on the machine
-Inform the user of the current tool installed.
-Check if the tool is the correct tool for the job ahead
-Give the user an option to proceed with the wrong tool installed
-Tell the user which should be installed
+-Identify the tool that is currently installed on the machine
+-Inform the user of the current tool installed.
+-Check if the tool is the correct tool for the job ahead
+-Tell the user which should be installed
 
 ## How
-To identify the tool i am going to be using simple resistors who's values will be so different that the printer can read the voltages/resistance of each and make a determination of which tool is installed.
+To identify each tool i am going to be using simple resistors who's values will be different that the printer can read the voltages/resistance of each and make a determination of which tool is installed.  Currently the tools are connected to the control board in a manner that does not conflict with each other or conflict with the printers normal operation, meaning no additional firmware changes are required for the use of each tool.  Users can simply< while the machine is powered down) disconnect the current tool and connect the new tool.
 
-I don't want to over-complicate the build process of this which is why using resistors to accomplish distiguishing between the tools is desirable.
+I don't want to over-complicate the build process of this which is why using resistors to accomplish distiguishing between the tools is desirable.  Also, this needs to act like a background process, meaning that the sequence of events that unfold during the tool check procedure needs to feel seemless or rather 'standard', like they were meant to be there the whole time and its not some clumsy add-on.
 
 
 ## The Code
