@@ -1,6 +1,8 @@
-** Tool Identification
+### Tool Identification
 The idea of identifying tools on a multi-tool machine is not a new idea.  It is beneficial to be able to id a tool prior to the machine proceeding with the manufacturing for multitude of reasons.
 Crashing tools into the build plate or into another spot on the printer can be detremental and potentially damage your machine.  
+
+## Goals
 With tool identification i wanted to the following to be accomplished:
 Identify the tool that is currently installed on the machine
 Inform the user of the current tool installed.
@@ -8,13 +10,14 @@ Check if the tool is the correct tool for the job ahead
 Give the user an option to proceed with the wrong tool installed
 Tell the user which should be installed
 
+## How
 To identify the tool i am going to be using simple resistors who's values will be so different that the printer can read the voltages/resistance of each and make a determination of which tool is installed.
 
 I don't want to over-complicate the build process of this which is why using resistors to accomplish distiguishing between the tools is desirable.
 
-Some code snippets hat i have produced so far with the aid of ChatGTP are below.  I'm sure this will get modified at some point.
 
-[heater_fan_pin]
+## The Code
+[heater_fan_pin] #use a thermistor pin set,this may cause issue though since i am using a gtr and the m5 daughter board, i haven't figured out yet why i get unstable off the m5 board.
 pin: your_pin_number_here
 
 [tool_id]
