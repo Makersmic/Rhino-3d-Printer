@@ -20,19 +20,23 @@ charged.  Utilizing 18650 batteries in a battery pack of some kind could be an a
 
 ## Anticipated zones for smoke and fire:
 -Build Chamber-This sensor will be located in the lid.
+
 -Control Cabinet-These sensors one on each side will be mounted on the same din rails as the other components.  One for each side so a total of 2 sensors, will be mounted in the middle of top
 din rail.
--Build Plate-Rhino utilizes 'air gap' insulation for the heated build plate.  The open pocket of air between the silicone heated mats and the cover located on the bottom
-side of the plate there is clearance to be able to install a smoke detector.
+
+-Build Plate-Rhino utilizes 'air gap' insulation for the heated build plate.  The open pocket of air between the silicone heated mats and the cover located on the bottom side of the plate there is clearance to be able to install a smoke detector.
+
 -Power Supply/Power Distribution Area-This sensor would be located in the area within close proximity to the power supplies and the bank of terminal blocks acting as power 
 distribution.
 
 ## Actions
 The macro that is written needs to do a couple things to ensure the long life of our printer:
 -Immediately or almost immediately killing power to the 3d printer.
+
 -Storing the last position of the print head much like that of when the printer is paused.
--Informing the user that smoke has been detected though the main display, or possibly tying it into telegram bot so a user can get messages sent directly to a device that they keep
-on their person.
+
+-Informing the user that smoke has been detected though the main display, or possibly tying it into telegram bot so a user can get messages sent directly to a device that they keep on their person.
+
 
 In retrospect, all of the actions described above will come with conditions, or perhaps not triggered until a requirement is met or not met.
 
