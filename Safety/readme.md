@@ -1,4 +1,4 @@
-### Safety
+# Safety
 ## Introduction
 When people in the 3d printing talk about saftey there seems to be a universal concern, fire.  In terms of the Rhino though i wanted to expand this subject out more due to the 
 multiple tools that can be utilized and the change procedures revolving around those tools.  
@@ -6,7 +6,7 @@ multiple tools that can be utilized and the change procedures revolving around t
 To address fire safety i want to install smoke alarms with relays.  The purpose of the smoke alarm having a relay is that the relay can be tied into the endstop inputs of the control 
 board, thus making Rhino aware of when smoke/fire occurs and further more enabling Rhino to take action.
 
-# Smoke Detection Module:
+### Smoke Detection Module:
 MQ-2.....Aliexpress $10
 
 This smoke detector can operate on 12v or 24v and is small in size,49x45x20mm
