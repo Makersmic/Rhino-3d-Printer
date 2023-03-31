@@ -47,6 +47,7 @@ Traditional distribution blocks that have the ability to be bridged
 
 #### Din Mounted Fuse Holders
 These will be used to protect the system against shorts in the stepper motor connections.
+
 <img src="https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/HTB14s..X5DxK1Rjy1zcq6yGeXXa1.jpg" width="250" height="200">
 
 ### Umbilical Connection
