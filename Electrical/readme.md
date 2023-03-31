@@ -43,9 +43,14 @@ I chose two different styles depending on the application.
 Wago Style that does not have the ability to be bridged
 
 #### Power Distribution
-Traditional distribution blocks that have the ability to be bridged
+These will be used to protect the system against shorts in the stepper motor connections.
+<img src="Traditional distribution blocks that have the ability to be bridged" width="250" height="200">
+
+#### Din Mounted Fuse Holders
+https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/HTB14s..X5DxK1Rjy1zcq6yGeXXa1.jpg
 
 ### Umbilical Connection
 21w4 male female connectors
 
 <img src="https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/1-piece-High-Power-30A-21W4-D-Sub-Connector-Combo-Male-Female-Plug-Receptacle-Signal-17.jpg" width="250" height="200">
+
