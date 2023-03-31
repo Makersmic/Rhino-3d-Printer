@@ -2,7 +2,7 @@
 Everyone knows the old saying, 'There's more than one way to skin a cat.'  It's gross, but it's true.  The following hardware listed below is what I am currently using.  The posted firmware configuration files will follow this hardware.
 
 ### Klipper MCU
-Rpi 3+
+T95 AndroidTV Box
 
 ### Mainboard
 SKR GTR with the accompanying M5 board
@@ -44,10 +44,10 @@ Wago Style that does not have the ability to be bridged
 
 #### Power Distribution
 These will be used to protect the system against shorts in the stepper motor connections.
-<img src="Traditional distribution blocks that have the ability to be bridged" width="250" height="200">
+Traditional distribution blocks that have the ability to be bridged
 
 #### Din Mounted Fuse Holders
-https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/HTB14s..X5DxK1Rjy1zcq6yGeXXa1.jpg
+<img src="https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/HTB14s..X5DxK1Rjy1zcq6yGeXXa1.jpg" width="250" height="200">
 
 ### Umbilical Connection
 21w4 male female connectors
