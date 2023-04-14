@@ -3,16 +3,24 @@ This document is to outline the usage of the router templates used to create the
 
 ### Materials Needed
 1 3d printed router template
+
 1 3d printed drill template
+
 1pc 1" x 36" aluminum square tube, 0.0625" wall thickness
+
 2pc m3 x 14mm Flathead bolt
+
 Cutting Fluid
 
 ### Tools Needed
 1 Power Drill
-1 Palm Router(or router of your choice0
+
+1 Palm Router(or router of your choice
+
 1 0.375" Diameter Flush Trim Bit(2 Flute)
+
 1 m3 tap
+
 Various clamps for work staging
 
 
