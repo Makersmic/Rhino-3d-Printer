@@ -1,5 +1,4 @@
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Welcome%20Graphic.jpg)
-*Updated 11-06-2022
 
 The Rhino is a multi-tool motion system platform using a corexy belt path for the xy motion motion components.  With a focus on 2d and 3d manufacturing Rhino gives you the headroom to create some truely amazing projects.  
 
