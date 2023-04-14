@@ -18,7 +18,7 @@ Various clamps for work staging
 
 ### How-to
 1.  Start by placing the 3d printed drill template as shown.  Ensure that the side surface of the template is flush against the surface of the aluminum square tube.
-![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Align1.png)
+![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Align1.PNG)
 
 
 2.  Usin a center punch, mark each end of the square tube using the template for placement of the center punch.  Each end of the square tube should have two markings for through-holes.
