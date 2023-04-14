@@ -32,7 +32,7 @@ Various clamps for work staging
 2.  Usin a center punch, mark each end of the square tube using the template for placement of the center punch.  Each end of the square tube should have two markings for through-holes.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Punch.png)
 
-3.  Remove the 3d printed drill template and drill each hole completely through the square tube using a 3.5mm drill bit.
+3.  Remove the 3d printed drill template and drill each hole completely through the square tube using a 3.5mm drill bit.  It is recommended to use a drillpress when drilling these holes to ensure proper alignment.
 4.  Wipe down or blow off all chip accumalations from drilling procedure.
 5.  Install 3d printed router template as shown.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra.png)
