@@ -1,6 +1,5 @@
 # The Gantry
-
-![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry-Bulkup.png)
+![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry-Bulkup.PNG)
 
 ## XY Motion System
 Optimized for 15mm belts, the files found within this section will enable you to construct the xy motion system.  As a bonus I've uploaded step files to make editing for modifications easier for the community.
