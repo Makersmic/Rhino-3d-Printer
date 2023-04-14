@@ -51,7 +51,7 @@ Various clamps for work staging
 8.  Drill and tap first and second holes for m3 size bolt.
 9.  Wipe down or blow off all chip accumalations from drilling procedure.
 10.  Align the 3d printed router template to second cutout feature by means of aligning first hole of template to the second tapped hole of the aluminum square.
-![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Second POS.png)
+![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Second POS.PNG)
 
 
 
