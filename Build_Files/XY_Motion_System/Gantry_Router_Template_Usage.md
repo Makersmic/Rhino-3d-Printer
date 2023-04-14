@@ -30,7 +30,7 @@ Various clamps for work staging
 
 
 
-2.  Usin a center punch, mark each end of the square tube using the template for placement of the center punch.  Each end of the square tube should have two markings for through-holes.
+2.  Using a center punch, mark each end of the square tube using the template for placement of the center punch.  Each end of the square tube should have two markings for through-holes.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Punch.png)
 
 
@@ -42,7 +42,7 @@ Various clamps for work staging
 
 
 
-6.  Mark first and second hole as shown.
+6.  Mark first and second hole with center punch.
 7.  Drill a hole in the cutout area that is greater than the diameter of the router bit but small than the cutout height.  This will be the ** starting position ** of where the router will begin cutting.
 8.  Drill and tap first and second holes for m3 size bolt.
 9.  Wipe down or blow off all chip accumalations from drilling procedure.
