@@ -21,6 +21,10 @@ Cutting Fluid
 
 1 m3 tap
 
+1 2.8mm drill bit
+
+1 0.4375" drill bit
+
 Various clamps for work staging
 
 
@@ -43,23 +47,25 @@ Various clamps for work staging
 
 
 6.  Mark first and second hole with center punch.
-7.  Drill a hole in the cutout area that is greater than the diameter of the router bit but small than the cutout height.  This will be the ** starting position ** of where the router will begin cutting.
+7.  Drill a hole in the cutout area using the 0.4375" drill bit.  This will be the ** starting position ** of where the router will begin cutting.
 8.  Drill and tap first and second holes for m3 size bolt.
 9.  Wipe down or blow off all chip accumalations from drilling procedure.
-10.  Align 3d printed router template to second cutout feature by means of aligning first hole of template to the second tapped hole of the aluminum square.
+10.  Align the 3d printed router template to second cutout feature by means of aligning first hole of template to the second tapped hole of the aluminum square.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Second POS.png)
 
 
 
-10. Secure template in place my install m3 flathead bolt in first alignment hole.
+10. Secure template in place by installing an m3 flathead bolt in first alignment hole.
 11.  Drill and tap second hole of template into aluminum square tube  with m3 tap.
-12.  Repeat steps 9-11 until all cutouts have been recognized.
-13.  Secure 3d printed router template in place by ensuring that the template is held in place by means of the 2 m3 flathead bolts installed into the template and square tube.
-14.  With the power cord disconnected, set the depth of the 0.375" router bit to a cut depth of approximately 1/32".  
-15.  Ensure cutting fluid has been applied to router bit and to the area of the square tube that will cut into by the router.
-16.  With the router bit secured in the router and the cutting depth, place the router on top of the template in such a way that the router bit is in the center of the ** starting position ** hole.
-17.  With a firm grasp on the router, power on the tool.
-18.  Moving the router slowly, follow the templates cutout edge with bearing of the flush trim bit.
-19.  When cut pass has been completed power off router and clear cutting area of debris.
-20.  Move router template to next set of alignment holes and secure in place by means of flathead m3 bolts.
-21.  Repeat steps 13-20 until all cutouts
+12.  Wipe down and blow off all chip accumalations drom drilling procedure.
+13.  Install second flathead bolt into second alignment hole.
+14.  Repeat steps 9-13 until all cutouts have been recognized.
+15.  Secure 3d printed router template in place by ensuring that the template is held in place by means of the 2 m3 flathead bolts installed into the template and square tube.
+16.  With the power cord disconnected, set the depth of the 0.375" router bit to a cut depth of approximately 1/32".  
+17.  Ensure cutting fluid has been applied to router bit and to the area of the square tube that will cut into by the router.
+18.  With the router bit secured in the router and the cutting depth, place the router on top of the template in such a way that the router bit is in the center of the ** starting position ** hole.
+19.  With a firm grasp on the router, power on the tool.
+20.  Moving the router slowly, follow the templates cutout edge with bearing of the flush trim bit.
+21.  When cut pass has been completed power off router and clear cutting area of debris.
+22.  Move router template to next set of alignment holes and secure in place by means of flathead m3 bolts.
+23.  Repeat steps 15-22 until all cutouts
