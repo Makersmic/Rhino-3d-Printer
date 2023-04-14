@@ -15,3 +15,6 @@ on the gantry which translates to higher quality 3d prints, smoother cuts when u
 
 ### How long should the belts be?
 3 meters for each belt run, so 6 meters total will be needed.  It is also recommended to utilize dust-proof glass fiber core belts.
+
+### Change History - new section
+04-14-2023 - Uploaded a new design for the xy joiners, a design that I refer to as "The Bulkup Concept".  This came about after i began to notice sagging in previous design where the x-axis frame and xy joiner meet.  In addition I added extra material to the areas that contain the pulleys to account for excessive strain during belt tensioning.  This design has been tested for 3 months and is proving effective.
