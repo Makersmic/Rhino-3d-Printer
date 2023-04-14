@@ -29,13 +29,18 @@ Various clamps for work staging
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Align1.PNG)
 
 
+
 2.  Usin a center punch, mark each end of the square tube using the template for placement of the center punch.  Each end of the square tube should have two markings for through-holes.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Punch.png)
+
+
 
 3.  Remove the 3d printed drill template and drill each hole completely through the square tube using a 3.5mm drill bit.  It is recommended to use a drillpress when drilling these holes to ensure proper alignment.
 4.  Wipe down or blow off all chip accumalations from drilling procedure.
 5.  Install 3d printed router template as shown.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra.png)
+
+
 
 6.  Mark first and second hole as shown.
 7.  Drill a hole in the cutout area that is greater than the diameter of the router bit but small than the cutout height.  This will be the ** starting position ** of where the router will begin cutting.
@@ -43,6 +48,8 @@ Various clamps for work staging
 9.  Wipe down or blow off all chip accumalations from drilling procedure.
 10.  Align 3d printed router template to second cutout feature by means of aligning first hole of template to the second tapped hole of the aluminum square.
 ![Rhino Motion System](https://github.com/Makersmic/Rhino-3d-Printer/blob/main/Literature/Gantry_Router_Template_Illustra_Second POS.png)
+
+
 
 10. Secure template in place my install m3 flathead bolt in first alignment hole.
 11.  Drill and tap second hole of template into aluminum square tube  with m3 tap.
