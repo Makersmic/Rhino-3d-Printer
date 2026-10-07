@@ -6,7 +6,7 @@
 
 | Part | Current hardware |
 |---|---|
-| Mainboard | **BTT Octopus** (replaced the SKR GTR + M5 used in the 2023 build) |
+| Mainboard | **BTT Octopus v1.1** (replaced the SKR GTR + M5 used in the 2023 build) |
 | Klipper host | Raspberry Pi running Klipper, Moonraker and Mainsail |
 | Power | Separate 24 V, 12 V and 5 V supplies |
 
