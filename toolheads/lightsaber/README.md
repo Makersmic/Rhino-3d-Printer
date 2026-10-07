@@ -4,7 +4,7 @@
 
 **Laser cutting and engraving** · slot 3 in the Tool Manager
 
-A 12 V blue diode laser for cutting vector shapes from flat sheet and engraving. A relay switches its 12 V
+An 80 W, 12 V blue diode laser for cutting vector shapes from flat sheet and engraving. A relay switches its 12 V
 supply (contacts 20-21) and Klipper drives its intensity (contacts 16-17). A thermistor on the heatsink keeps Klipper
 happy and lets the swap wizard confirm the umbilical is seated. The printed **height gauge** sets the focus distance.
 

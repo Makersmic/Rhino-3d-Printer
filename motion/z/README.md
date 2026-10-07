@@ -1,7 +1,10 @@
-## Z-Axis
-The z-axis of the Rhino utilizes a triple leadscrews with kinematic couplings attaching the buildplate.  The rear leadscrew is T12x2 with 3:1 gear ratio using a 60 tooth 2gt pulley and 20 tooth 2gt pulley.  The front leadscrews are T8x2 with a 3:1 gear ratio as well utilizing 30 tooth 2gt pulleys and 10 tooth 2gt pulleys.  All pulleys are designed for closed loop 2gt 15mm belts accomodating 180-190mm loop size. 
+# Z axis
 
+The bed rides on **three leadscrews** joined to the build plate by kinematic couplings: one **T12×2** at the rear and
+two **T8×2** at the front. Each screw has its own stepper and is belt-driven through a **2:1 reduction** on closed-loop
+2GT 15 mm belts (180–190 mm loop).
 
-> **Klipper setting:** `printer.cfg` uses `gear_ratio: 2:1` on all three Z steppers - the value that measures correctly on the machine. The pulley counts above are being re-checked against it.
+Klipper matches this with `gear_ratio: 2:1` on all three Z steppers (`stepper_z`, `stepper_z1`, `stepper_z2` in
+`printer.cfg`). Because each corner has its own motor, Klipper trams the bed with `Z_TILT_ADJUST`.
 
-Because each corner has its own motor, Klipper trams the bed with `Z_TILT_ADJUST`. Parts are in [leadscrew-based](leadscrew-based/).
+Parts are in [leadscrew-based](leadscrew-based/).

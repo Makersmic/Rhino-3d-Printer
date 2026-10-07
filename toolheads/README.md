@@ -11,7 +11,7 @@ carriage, which aligns it, and is held by one M3×50 bolt with a knurled nut (or
 |---|---|---|---|
 | 1 | **BlockOne** | Single-extruder 3D printing (0.4 / 0.8 mm nozzles) | [blockone](blockone/) |
 | 2 | **SwitchFly** | Two filaments, one stepper, one nozzle | [switchfly](switchfly/) |
-| 3 | **LightSaber** | 12 V blue diode laser - cutting and engraving | [lightsaber](lightsaber/) |
+| 3 | **LightSaber** | 80 W, 12 V blue diode laser - cutting and engraving | [lightsaber](lightsaber/) |
 | 4 | **HotJoe** | 24 V brushless spindle with ER8 collet | [hotjoe](hotjoe/) |
 | 5 | **DragKnife** | Passive drag knife for vinyl, cardstock, foam | [dragknife](dragknife/) |
 | - | Jack Rabbit | Earlier print head, superseded by BlockOne | [jack-rabbit](jack-rabbit/) |
